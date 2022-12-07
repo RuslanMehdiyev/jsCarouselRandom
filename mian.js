@@ -17,7 +17,6 @@ function getRandomImage() {
       imgArray.shift();
     }
 
-    //carousel
     for (let i = 0; i < imgArray.length; i++) {
       let img = document.createElement("img");
       img.src = imgArray[i];
